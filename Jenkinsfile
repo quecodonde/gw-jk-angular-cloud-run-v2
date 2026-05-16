@@ -6,7 +6,7 @@ pipeline {
         GCP_PROJECT_ID         = "project-f5b5f7ba-7267-405d-99c"
         GCP_REGION             = "us-central1"
         ARTIFACT_REGISTRY_REPO = "gw-jk-artifact-registry-01" 
-        CLOUD_RUN_SERVICE_NAME = "gemini-angular-app"
+        CLOUD_RUN_SERVICE_NAME = "gw-jk-angular-cloud-run-v2"
         
         // El secret ENVIRONMENT_NAME lo manejamos de forma segura en Jenkins
         // ENVIRONMENT_NAME       = credentials('ENVIRONMENT_NAME')
