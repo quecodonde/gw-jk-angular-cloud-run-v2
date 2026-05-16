@@ -5,7 +5,7 @@ pipeline {
         // Variables migradas de tu env de GitHub Actions
         GCP_PROJECT_ID         = "project-f5b5f7ba-7267-405d-99c"
         GCP_REGION             = "us-central1"
-        ARTIFACT_REGISTRY_REPO = "container-repository-gemini" 
+        ARTIFACT_REGISTRY_REPO = "gw-jk-artifact-registry-01" 
         CLOUD_RUN_SERVICE_NAME = "gemini-angular-app"
         
         // El secret ENVIRONMENT_NAME lo manejamos de forma segura en Jenkins
